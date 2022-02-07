@@ -1,0 +1,56 @@
+.navbar {
+    background-color: #F85606 !important;
+
+
+}
+.nav-link{
+    color: aliceblue !important;
+}
+.navbar-brand{
+    color: aliceblue !important;
+    font-weight: bold;
+}
+.footer{
+    padding: 10px;
+    text-align: center;
+    background-color: #F85606 !important;
+    color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.content{
+    padding-top: 80px;
+}
+button{
+    background-color: #F85606;
+    box-shadow: none;
+    border: 2px solid gray;
+    color: aliceblue;
+    padding: 5px;
+}
+button:hover{
+    background-color: aqua;
+
+}
+.ic{
+    margin-bottom: 5px;
+}
+.loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:9999;
+}
+a{
+    text-decoration: none;
+}
